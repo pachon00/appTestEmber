@@ -1,1 +1,37 @@
+<h2>Editar</h2>
+
+<div class="well bs-component">
+<form class="form-horizontal">
+  <fieldset>
+   <div class="form-group">
+     <label class="control-label" for="focusedInput">Nombre</label>
+     <input class="form-control" id="focusedInput" value="Nombre de la dieta..." type="text">
+   </div>
+   <div class="form-group">
+     <label class="control-label" for="focusedInput">Descripcion</label>
+     <input class="form-control" id="focusedInput" value="Descripcion de dieta..." type="text">
+   </div>
+    <div class="form-group">
+      <label class="control-label" for="focusedInput">Calorias</label>
+        <br>
+      <div class="col-lg-1">
+        <select class="form-control" id="select">
+          <option>1000</option>
+          <option>1200</option>
+          <option>1300</option>
+          <option>1400</option>
+          <option>1500</option>
+        </select>
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="col-lg-10">
+        <button type="reset" class="btn btn-default">Cancel</button>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </fieldset>
+</form>
+</div>
+
 {{outlet}}
